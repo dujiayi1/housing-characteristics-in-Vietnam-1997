@@ -1,0 +1,44 @@
+---
+title: "datasheet_template"
+author: "Jiayi Du"
+date: "2022/3/31"
+output: pdf_document
+---
+
+# Datasheet
+
+## Motivation
+
+The dataset was created to provide a descriptive summary of some characteristics of the households and the individual respondents of the second Vietnam Demographic and Health Survey (VNDHS-II). It examines some environmental conditions, such as water sources, toilet facilities and so on. I created the dataset according to the table in the DHS program Demographic and Health Survey 1997 in Vietnam. The program is available at https://dhsprogram.com/publications/publication-fr104-dhs-final-reports.cfm?cssearch=454695_1 .
+
+The VNDHS-II was designed to provide information on levels of fertility, family planning knowledge and 
+use, infant and child mortality, and indicators of maternal and child health. And this dataset includes information which is very important for interpreting the survey findings and can provide an approximate indication of the representativeness of the survey.
+
+
+## Composition
+
+The variables in the dataset are as below:
+
+Characteristic: If the household is in the urban area or rural area.
+
+Electricity: If the household has electricity
+
+Sourceofdrinkingwater: The source of drinking water for residents(Piped into residence, Public tap, Well in residence, Public well, Spring, River. stream, Pond. lake, Dam, Rain water and Tanker truck)
+
+Timetowatersource: Time for residents to obtain the water source(Less than 15 minutes and More than 15 minutes)
+
+Sanitationfacility: the type of toilet in the household(Own flush toilet, Shared flush toilet, Traditional pit toilet, Vent. imp. pit toilet,No facility bush)
+
+Flooring: the type of floor in the household(Earth sand, Rough wood/bamboo, Finished floor)
+
+Personspersleepingroom: the number of persons per sleeping room(1-2, 3-4, 5-6, 7+, Dont know/missing)
+
+There are 7 variables in total and 7001 observations. And the dataset contains all possible instances.
+
+
+In the VNDHS-II, information was collected for usual residents of the selected households and visitors who had spent the previous night in the households. A household was defined as a person living alone or a group of persons who live and eat together.
+
+However, there exist some missing values in the dataset. Some of the Personspersleepingroom of respondents are "Don't know/missing".
+
+In addition, the dataset doesn't contain data that, might be offensive, insulting, threatening, or might otherwise cause anxiety. The dataset also doesn't contain data that might be considered confidential. Moreover, there is no errors, sources of noise, or redundancies in the dataset.
+
